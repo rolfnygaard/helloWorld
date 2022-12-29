@@ -1,7 +1,14 @@
 import argparse
 
-def multiply_by_two(x:float):
+def multiply_by_two(x: float) -> float:
+    """Multiply a number by two.
 
+    Args:
+        x (float): the number you want to be multiplied
+
+    Returns:
+        float: the result
+    """
     return x*2
 
 def get_args():
