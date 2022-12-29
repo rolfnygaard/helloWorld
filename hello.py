@@ -15,3 +15,4 @@ if __name__ == "__main__":
     a_number = args.number
     result = multiply_by_two(a_number)
     print(f"{a_number} * 2 = {result}")
+    
